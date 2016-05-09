@@ -1,0 +1,6 @@
+---- E_Ding_DianLiu 匹配 (5 在 3 文件 ) ----
+DSP281x_Adc.c (source):     ia=_IQdiv(ia,_IQ(E_Ding_DianLiu));//标么
+DSP281x_Adc.c (source):     ic=_IQdiv(ic,_IQ(E_Ding_DianLiu));//标么
+DSP281x_Adc.h (Include):extern Uint16 E_Ding_DianLiu;
+PSMS_VectorControl.c (source):float32 E_Ding_DianLiu=1.56;            //设置电机的额定电流 单位A 
+PSMS_VectorControl.c (source):    GuoliuZhi=15*E_Ding_DianLiu;

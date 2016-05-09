@@ -1,0 +1,59 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="F:\2812-C-C-P-PMSM-FOC-V0.7.1.4\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="Lib\F281xDRV_ml.L28"
+Source="Lib\iqDMC_ml.L28"
+Source="Lib\IQmath.lib"
+Source="source\128x64.c"
+Source="source\Dis.c"
+Source="source\DSP281x_Adc.c"
+Source="source\DSP281x_CodeStartBranch.asm"
+Source="source\DSP281x_CpuTimers.c"
+Source="source\DSP281x_DefaultIsr.c"
+Source="source\DSP281x_GlobalVariableDefs.c"
+Source="source\DSP281x_Gpio.c"
+Source="source\DSP281x_MemCopy.c"
+Source="source\DSP281x_PieCtrl.c"
+Source="source\DSP281x_PieVect.c"
+Source="source\DSP281x_Sci.c"
+Source="source\DSP281x_SysCtrl.c"
+Source="source\DSP281x_usDelay.asm"
+Source="source\PSMS_VectorControl.c"
+Source="CMD\DSP281x_Headers_nonBIOS.cmd"
+Source="CMD\F2812_Flash.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -i"F:\2812-C-C-P-PMSM-FOC-V0.7.1.4\Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\PSMS_VectorControl.map" -o".\Debug\PMSM_Control.out" -stack0x400 -w -x -i"C:\CCStudio_v3.3\C2000\cgtools\lib" -l"rts2800_ml_eh.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\PSMS_VectorControl.map" -o".\Release\PSMS_VectorControl.out" -w -x
+
+["CMD\DSP281x_Headers_nonBIOS.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["CMD\DSP281x_Headers_nonBIOS.cmd" Settings: "Release"]
+LinkOrder=1
+
+["CMD\F2812_Flash.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["CMD\F2812_Flash.cmd" Settings: "Release"]
+LinkOrder=1
+

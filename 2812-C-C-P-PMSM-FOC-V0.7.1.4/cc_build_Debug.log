@@ -1,0 +1,36 @@
+-----------------------  PSMS_VectorControl.pjt - Debug  -----------------------
+[128x64.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "128x64.c"
+
+[Dis.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "Dis.c"
+
+[DSP281x_Adc.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_Adc.c"
+
+[DSP281x_CodeStartBranch.asm] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_CodeStartBranch.asm"
+
+[DSP281x_CpuTimers.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_CpuTimers.c"
+
+[DSP281x_DefaultIsr.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_DefaultIsr.c"
+
+[DSP281x_GlobalVariableDefs.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_GlobalVariableDefs.c"
+
+[DSP281x_Gpio.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_Gpio.c"
+
+[DSP281x_MemCopy.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_MemCopy.c"
+
+[DSP281x_PieCtrl.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_PieCtrl.c"
+
+[DSP281x_PieVect.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_PieVect.c"
+
+[DSP281x_Sci.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_Sci.c"
+
+[DSP281x_SysCtrl.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_SysCtrl.c"
+
+[DSP281x_usDelay.asm] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "DSP281x_usDelay.asm"
+
+[PSMS_VectorControl.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -fr"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Debug" -i"F:/2812-C-C-P-PMSM-FOC-V0.7.1.4/Include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "PSMS_VectorControl.c"
+
+[Linking...] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.
